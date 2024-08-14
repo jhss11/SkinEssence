@@ -1,0 +1,20 @@
+{
+  "salesData": [
+    {
+      "brand": "The Ordinary",
+      "sales": 913000
+    },
+    {
+      "brand": "Eucerin",
+      "sales": 567000
+    },
+    {
+      "brand": "La Roche-Posay",
+      "sales": 742000
+    },
+    {
+      "brand": "Vichy",
+      "sales": 810000
+    }
+  ]
+}

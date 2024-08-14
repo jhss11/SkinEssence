@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SkinEssence - Contacto</title>
+    <!-- Estilo personalizado-->
+    <link href="css/estilo.css" rel="stylesheet">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+
+
+    <!--Estilo boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/img/logoSkinEssence10cm.png" alt="SkinEssence Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/carrito.html">Carrito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/preguntas.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/acercaDe.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-dark-green text-white text-center py-5 mb-10">
+        <h1 class="page-title text-center mb-4">Contáctenos</h1>
+    </header>
+
+    <main class="container mt-5 mb-5">
+        <div class="row border border-success-subtle rounded">
+            <div class="col-md-8 p-2 ">
+                <h2 class="pt-3 fs-3 text-center" style="color: #BB7A36;">Formulario de Contacto</h2>
+
+                <form id="contactForm" class="row gy-2 gx-3 d-flex justify-content-center">
+                    <fieldset class="mb-2 row g-3">
+                        <legend>Información Usuario</legend>
+                        <div class="col-4">
+                            <label for="nombre" class="form-label">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Jhassiel"
+                                required title="Por favor, ingrese su nombre completo" />
+                        </div>
+                        <div class="col-4">
+                            <label for="primer_apellido" class="form-label">Primer Apellido:</label>
+                            <input type="text" name="primer_apellido" id="primer_apellido" class="form-control" required
+                                placeholder="Marín" title="Por favor, ingrese su primer apellido" />
+                        </div>
+                        <div class="col-4">
+                            <label for="segundo_apellido" class="form-label">Segundo Apellido:</label>
+                            <input type="text" name="segundo_apellido" id="segundo_apellido" class="form-control"
+                                placeholder="Arias" title="Por favor, ingrese su segundo apellido" required />
+                        </div>
+
+
+                        <div class="col-6">
+                            <h6>Género</h6>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="generoF" id="generoF" checked>
+                                <label class="form-check-label" for="generoF">
+                                    Femenino
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="genero" id="generoM">
+                                <label class="form-check-label" for="generoM">
+                                    Masculino
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <label for="fecha" class="form-label">Fecha Nacimiento</label>
+                            <input type="date" id="fecha" name="fecha" class="form-control" required />
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="mb-2 row g-3">
+                        <legend>Formas de contacto</legend>
+
+                        <div class="col-7">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" name="email" autofocus id="email" placeholder="correo@ejemplo.com"
+                                autocomplete="off" class="form-control" required>
+                        </div>
+
+                        <div class="col-5">
+                            <label for="tel" class="form-label">Teléfono</label>
+                            <input type="tel" id="tel" placeholder="8000000" class="form-control" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="mb-2 row g-3">
+                        <legend>Mensaje</legend>
+                        <div class="col-12">
+                            <label for="opciones" class="form-label">Seleccione el motivo el mensaje:</label>
+                            <select name="opciones" id="opciones" class="form-select">
+                                <option value="1">Cambio/Devolución</option>
+                                <option value="2">Reclamo</option>
+                                <option value="3">Recomendación</option>
+                                <option value="4">Otro</option>
+
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="observaciones">Escribe tu mensaje</label>
+                            <textarea class="form-control" placeholder="Observaciones" id="observaciones"
+                                name="observaciones" rows="3" required></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-warning btn-lg" style="width: 250px;">Enviar</button>
+                    </div>
+
+
+                </form>
+
+            </div>
+
+            <div class="col-md-4 contact_info">
+                <h2 class="pt-3 fs-3 text-center">Nuestra información</h2>
+                <p class="fs-5 mb-5 mt-4 fw-light"><i class="bi bi-house-fill me-1"></i><b>Dirección:</b> 1 km norte de
+                    la Iglesia Católica de Berlín, San Ramón, Alajuela</p>
+                <p class="fs-5 mb-5 fw-light"><i class="bi bi-telephone-fill me-1"></i><b>Teléfono:</b> +506 8479 4671
+                </p>
+                <p class="fs-5 mb-5 fw-light"><i class="bi bi-envelope-fill me-1"></i><b>Email:</b>
+                    valeriajj181@gmail.com</p>
+                <p class="fs-5 fw-light"><i class="bi bi-calendar-fill me-1"></i><b>Horario:</b> Lunes a Viernes de
+                    1:00pm a 6:00pm</p>
+
+                <div id="map"></div>
+
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <footer class="bg-dark-green text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">SkinEssence</h5>
+                    <p>Dedicados a vender productos de calidad para un rostro sano y agradecido.</p>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Productos</h5>
+                    <p>
+                        <a href="productos.html" class="text-white" style="text-decoration: none;">Ver productos</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacto</h5>
+                    <p>
+                        <i class="fa fa-home mr-3"></i> Alajuela, San Ramón, Berlín
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> valeriajj181@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> +506 8479 4671
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>Copyright ©2024 Todos los derechos reservados para:
+                        <a href="#" style="text-decoration: none;">
+                            <strong class="text-warning">SkinEssence</strong>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/mariavaleria.jimenezjimenez" target="_blank"
+                                class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/m_valeriajj/" target="_blank" class="social-icon"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/84794671" target="_blank" class="social-icon"><i
+                                    class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootsrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="js/contacto.js"></script>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script src="js/mapa.js"></script>
+</body>
+
+</html>

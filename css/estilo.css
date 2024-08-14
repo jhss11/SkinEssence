@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;   
+}
+
+#navbarNav .nav-link:hover {
+    background-color:#BB7A36; /* Cambia el color de fondo en hover */
+    color: #ffffff; /* Cambia el color del texto en hover */
+    border-radius: 5px; /* Redondea las esquinas del fondo en hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Agrega una transición suave */
+}
+
+.legend{
+    margin-top: 80px; /* Ajusta el margen superior para mover el título hacia abajo */
+    margin-left: -480px; /* Ajusta el margen izquierdo para mover el título hacia la izquierda */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.carousel-item img {
+    max-width: 700px;
+    max-height: 760px;
+    margin: 0 auto;
+    transform: translateY(-15%);
+}
+
+.bg-dark-green {
+    background-color:#21443D; 
+    color: white;
+}
+
+
+
+/*productos*/
+.filter-search{
+    font-size: 30px;
+    color: #BB7A36;
+}
+
+.card-body{
+    background-color: #21443D;
+
+}
+
+.page-title {
+    color: #fdfdfd;
+    font-size: 55px;
+
+}
+.card-body h5,.card-body p, .card-body h1{
+    color: #feffff;
+
+}
+
+.card-title{
+    color: #000000;
+    font-size: 25px;
+
+}
+
+
+/* Detalle */
+
+#reseñas{
+    color: #BB7A36;
+}
+
+#cartIcon {
+    display: none;
+}
+
+
+#cantidad {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#addToCartBtn {
+    height: 60px;
+    width: 190px;
+    margin-top: 25px;
+}
+
+.reviewer_name h5{
+    color: #ffc107;
+}
+
+
+/*Carrito*/
+.carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*Contacto*/
+
+.contact_info{
+    background-color: #BB7A36;
+    color: #fdfdfd;
+}
+
+/*Footer*/
+
+.social-icon {
+    display: inline-block;
+    font-size: 30px; 
+    color: white;
+    transition: transform 0.3s ease;
+    margin: 0 10px;
+}
+.social-icon:hover {
+    transform: translateY(-5px); /* Eleva el icono 5 píxeles hacia arriba */
+    color: #BB7A36;
+}
+
+/*Mapa de ubicación*/
+#map {
+    width: 350px;
+    /* Tamaño del mapa */
+    height: 410px;
+    /* Tamaño del mapa */
+    border-radius: 0;
+    /* Elimina el borde redondeado */
+    overflow: hidden;
+    /* Oculta el desbordamiento */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Sombra opcional para efecto de profundidad */
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkinEssence - Detalle Productos</title>
+
+  <!-- Estilo personalizado-->
+  <link href="css/estilo.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!--Estilo boostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/img/logoSkinEssence10cm.png" alt="SkinEssence Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/carrito.html">Carrito</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/preguntas.html">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/acercaDe.html">Acerca de</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-dark-green text-white text-center py-5">
+    <h1 class="page-title text-center mb-4">Preguntas Frecuentes</h1>
+
+  </header>
+  <main class="container mt-5 mb-5 ">
+    <div class="mb-5 text-center">
+      <p id="mensaje" class="fs-5 fw-light">Entendemos que puedes tener dudas sobre nuestros servicios, por eso proporcionamos este espacio de preguntas
+        frecuentes. Esperamos que encuentres la respuesta a tu pregunta.</p>
+    </div>
+    
+    <div class="row  justify-content-center ">
+      <div class="col-10">
+        <div class="accordion mb-5 border border-1 rounded" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                ¿Puedo devolver un producto si no estoy satisfecho?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Para productos que sean mercancías irrevocables e intangibles, no ofrecemos reembolsos una vez que el
+                  producto ha sido enviado.Te solicitamos que leas detenidamente antes de realizar tu compra. Hacemos
+                  excepciones a esta regla únicamente cuando la descripción no coincide con el producto. En esos casos,
+                  la garantía cubrirá solo defectos de fábrica y será válida únicamente si el producto se ha utilizado
+                  adecuadamente. La garantía no incluye averías o daños causados por uso inapropiado.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Cuánto tiempo tardan en enviar los pedidos?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Realizamos entregas de Lunes a Viernes en el horario de 1:00pm a 6:00pm y contamos con 2-3 días
+                  hábiles
+                  para entregar tu compra. Excluyendo los días feriados y
+                  festivos. Esto significa que los pedidos realizados durante el fin de semana o en días festivos serán
+                  procesados y enviados el siguiente día hábil, además ofrecemos envíos gratis (Costa Rica) en todas las
+                  compras de ₡30.000 o más.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ¿Ofrecen muestras de productos?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Sí, ofrecemos muestras gratuitas con ciertos pedidos. También puedes comprar kits de muestras para
+                  probar
+                  varios productos antes de comprometerte con una compra de tamaño completo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                ¿Puedo cancelar mi pedido?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Si deseas cancelar tu pedido, debes contactarnos lo antes posible por alguno de nuestros medios. Si
+                  tu
+                  pedido aún no ha sido procesado y enviado, podremos cancelarlo y emitir un reembolso.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                ¿Los productos tienen fecha de caducidad?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p> Sí, todos los productos que ofrecemos tienen una fecha de caducidad claramente indicada en el
+                  empaque.
+                  Recomendamos usarlos antes de esa fecha para asegurar la mejor eficacia y seguridad.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                ¿Ofrecen envío internacional?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>No realizamos envíos internacionales, ya que somos una tienda online con envíos exclusivamente en
+                  Costa
+                  Rica.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                ¿Cómo sé si un producto es adecuado para problemas específicos de la piel como el acné o las arrugas?
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Cada producto tiene una descripción detallada que incluye sus beneficios y usos recomendados. En
+                  ellos
+                  encontrarás la información necesaria para hacer tu elección de productos. Además de que contamos con
+                  varias marcas, las cuales en su mayoría tienen productos con características similares.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                ¿Qué hago si tengo una reacción alérgica a un producto?
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Si tienes una reacción alérgica, deja de usar el producto de inmediato y consulta a un médico si es
+                  necesario. Informanos sobre la reacción y para realizar el debido proceso y verificar si el producto
+                  está dañado.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="alert alert-info alert-dismissible fade show mt-4" role="alert">
+          <h4 class="alert-heading">¿La respuesta que buscas no está aquí?</h4>
+          <p>Puedes contactarnos al <strong>8479-4671</strong> o en la <a href="/contacto.html"
+              class="alert-link">página de contacto</a> encontrarás más medios para escribirnos.</p>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark-green text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">SkinEssence</h5>
+                <p>Dedicados a vender productos de calidad para un rostro sano y agradecido.</p>
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Productos</h5>
+                <p>
+                    <a href="productos.html" class="text-white" style="text-decoration: none;">Ver productos</a>
+                </p>
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacto</h5>
+                <p>
+                    <i class="fa fa-home mr-3"></i> Alajuela, San Ramón, Berlín
+                </p>
+                <p>
+                    <i class="fa fa-envelope mr-3"></i> valeriajj181@gmail.com
+                </p>
+                <p>
+                    <i class="fa fa-phone mr-3"></i> +506 8479 4671
+                </p>
+            </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+            <div class="col-md-7 col-lg-8">
+                <p>Copyright ©2024 Todos los derechos reservados para:
+                    <a href="#" style="text-decoration: none;">
+                        <strong class="text-warning">SkinEssence</strong>
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-5 col-lg-4">
+                <div class="text-center text-md-right">
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/mariavaleria.jimenezjimenez" target="_blank" class="social-icon"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/m_valeriajj/" target="_blank" class="social-icon"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/84794671" target="_blank" class="social-icon"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

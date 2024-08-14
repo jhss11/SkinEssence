@@ -1,0 +1,411 @@
+[
+  {
+    "id": 1,
+    "marca": "Eucerin",
+    "nombre": "EUCERIN - PROTECTOR SOLAR CONTROL DE ACEITE",
+    "main_img": "https://images-1.eucerin.com/~/media/eucerin%20relaunch%20media/eucerin/local/latam/sales%20visuals/proteccion%20solar/69775_photoaging%20control%20medium%20spf50/169775photoagingcontrolmediumspf50%201121svproduct.png?rx=0&ry=0&rw=2000&rh=2000&hash=2A2E763C733E62B618970172EC9C9558",
+    "precio": 10669,
+    "descripcion": "Eucerin Sun Face Oil Control FPS 50+ con color tono medio protege la piel grasa y con tendencia acneica de los daños provocados por el sol. Protector solar en toque seco para las pieles grasas, protege de los rayos solares UVA, UVB y luz visible dejando la piel con acabado mate.",
+    "descripcion_corta": "Protector solar facial con control de aceite y FPS 50+ para una protección máxima.",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_625483-MLU72829972421_112023-O.webp",
+      "https://pielboutiquecr.com/wp-content/uploads/2023/09/1612142-OIL-CONTROL-TONO-MEDIO-FPS50-50ML.jpg"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 48,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "5 días",
+    "reviews": [
+      {
+        "estrellas": 4,
+        "texto": "Muy buen producto, mantiene la piel libre de grasa.",
+        "nombre": "Juan Pérez"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Excelente protector solar, no deja la piel grasosa.",
+        "nombre": "María Rodríguez"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Me encantó, me protege la piel y a la vez le da color.",
+        "nombre": "Carlos García"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "marca": "Eucerin",
+    "nombre": "EUCERIN - SUERO DUAL ANTI-PIGMENTACIÓN",
+    "main_img": "https://dermamedina.com/cdn/shop/products/7319470066786.jpg?v=1631723942&width=320",
+    "precio": 19789,
+    "descripcion": "Un sérum de doble acción con Thiamidol y ácido Hialurónico concentrado para reducir visiblemente las manchas, evitando su reaparición y las líneas de expresión para una piel suave, hidratada, renovada, uniforme y radiante.",
+    "descripcion_corta": "Reduce con eficacia las manchas y evita su reaparición.",
+    "imagenes": [
+      "https://hebmx.vtexassets.com/arquivos/ids/665823-800-800?v=638497900661970000&width=800&height=800&aspect=true",
+      "https://images-1.eucerin.com/~/media/eucerin%20relaunch%20media/media-center-items/1/f/8/16f4fe05d968448bb884c1f4975317fb-screen.jpg"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 32,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "5 días",
+    "reviews": [
+      {
+        "estrellas": 5,
+        "texto": "Maravilloso, me dejó la piel renovada.",
+        "nombre": "Ana López"
+      },
+      {
+        "estrellas": 3,
+        "texto": "No era lo que esperaba pero noté algunas mejoras.",
+        "nombre": "Luis Fernández"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "marca": "Eucerin",
+    "nombre": "EUCERIN - CONTROL DE ACEITE GEL LIMPIADOR",
+    "main_img": "https://walmartcr.vtexassets.com/arquivos/ids/362097/Gel-Eucerin-Limpiador-Facial-Dermopure-Oil-Control-200ml-1-61562.jpg?v=638037886799170000",
+    "precio": 11910,
+    "descripcion": "Un agente para lavar la cara no comedogénico con un 6% de anfotensores que elimina el exceso de sebo de una manera suave pero efectiva, a la vez que elimina la suciedad y el maquillaje.",
+    "descripcion_corta": "Limpieza suave pero efectiva. Elimina el exceso de sebo.",
+    "imagenes": [
+      "https://images-1.eucerin.com/~/media/eucerin%20relaunch%20media/eucerin/local/latam/sales%20visuals/dermopure/2022/gel_limpiador%20facial_400ml/latam_sp_ecn_88982_dermopure_gel_limpiador_200ml_presenting%20product.jpg?rx=0&ry=0&rw=2000&rh=2000&hash=6C8FB0BD020FBEE29A8852D579151113",
+      "https://plazavea.vteximg.com.br/arquivos/ids/7786056-450-450/image-b9cfb2abb9f84cd29b97e66dd1b277c9.jpg?v=637826204672600000"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 53,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "5 días",
+    "reviews": [
+      {
+        "estrellas": 5,
+        "texto": "¡Es genial para la piel grasa!",
+        "nombre": "Laura Martínez"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Súper recomendado este producto, a mí me ayudó mucho con el acné.",
+        "nombre": "José González"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Este es mi limpiador favorito.",
+        "nombre": "Elena Díaz"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "marca": "The Ordinary",
+    "nombre": "THE ORDINARY - NIACINAMIDA 10%",
+    "main_img": "https://theordinarycostarica.com/cdn/shop/files/3546188091.jpg?v=1687747655",
+    "precio": 9900,
+    "descripcion": "La fórmula de Niacinamida 10% + Zinc 1% es un sérum a base de agua que aumenta la luminosidad de la piel, mejora la suavidad de la piel y refuerza la barrera cutánea con el tiempo.",
+    "descripcion_corta": "Sérum universal para pieles propensas a imperfecciones que suaviza e ilumina.",
+    "imagenes": [
+      "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw8b6570f0/Images/products/The%20Ordinary/lifestyle/rdn-niacinamide-10pct-zinc-1pct-60ml-lifestyle.jpg?sw=1200&sh=1200&sm=fit",
+      "https://skinplusbd.com/public/uploads/all/C7uVpdrqPoohKCBobMV7AJ69liNfOc2pKX3RiB3I.png"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 31,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "3 días",
+    "reviews": [
+      {
+        "estrellas": 3,
+        "texto": "No vi muchos cambios contra el acné.",
+        "nombre": "Andrea Jiménez"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Increíble, me deja la piel súper hidratada.",
+        "nombre": "Miguel Romero"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "marca": "The Ordinary",
+    "nombre": "THE ORDINARY - PEELING SOLUTION",
+    "main_img": "https://theordinarycostarica.com/cdn/shop/files/3546163206.jpg?v=1687747779",
+    "precio": 9000,
+    "descripcion": "Una solución exfoliante con una concentración de 30% de AHA y 2% de BHA para ayudar a combatir las imperfecciones visibles y mejorar la luminosidad de la piel.",
+    "descripcion_corta": "Exfolia las capas más superficiales de la piel, dejando la piel suave y limpia",
+    "imagenes": [
+      "https://i5.walmartimages.com/asr/2bf8006e-5701-4c9a-8436-89173d7b6196.14c2aae67c273c9ed60f3715db1e8bbc.jpeg",
+      "https://n.nordstrommedia.com/id/sr3/b9b5f973-6939-4486-b225-3306f7f86961.jpeg?trim=color&w=350&h=536"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 42,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "3 días",
+    "reviews": [
+      {
+        "estrellas": 5,
+        "texto": "Me encantó, mi piel luce más luminosa después de usarlo.",
+        "nombre": "Natalia Torres"
+      },
+      {
+        "estrellas": 4,
+        "texto": "Funciona bien, pero hay que tener cuidado con las pieles sensibles.",
+        "nombre": "Raúl Álvarez"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Este producto ha cambiado mi piel para mejor.",
+        "nombre": "Patricia Méndez"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "marca": "The Ordinary",
+    "nombre": "THE ORDINARY - ÁCIDO GLICÓLICO",
+    "main_img": "https://emanti.mx/cdn/shop/products/rdn-glycolic-acid-7pct-toning-solution-240ml-min.png?v=1636676810",
+    "precio": 10500,
+    "descripcion": "Útil para renovar la piel eliminando las células muertas, reducir manchas y marcas, mejorar la textura de la piel suavizándola y estimular la producción de colágeno para una apariencia firme y elástica.",
+    "descripcion_corta": "Contribuye a disminuir las marcas del acné, la pigmentación y las líneas de expresión.",
+    "imagenes": [
+      "https://http2.mlstatic.com/D_NQ_NP_877396-MLV54964815402_042023-O.webp",
+      "https://cocoamakeupcrc.com/wp-content/uploads/2023/05/4-2.png"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 36,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "3 días",
+    "reviews": [
+      {
+        "estrellas": 5,
+        "texto": "¡Súper genial lo que este producto hace!",
+        "nombre": "Sofía Rodríguez"
+      },
+      {
+        "estrellas": 4,
+        "texto": "Es muy bueno para incluirlo en la rutina de skincare.",
+        "nombre": "Carlos Hernández"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "marca": "La Roche-Posay",
+    "nombre": "LA ROCHE-POSAY - GEL MICRO EXFOLIANTE",
+    "main_img": "https://www.larocheposay-centroamerica.com/-/media/project/loreal/brand-sites/lrp/america/latam/products/effaclar/effaclar-micro-peeling-purifying-gel/effaclarmicropeelingpurifyinggel400ml2salicylicacidoilyskinfss.png",
+    "precio": 18400,
+    "descripcion": "Elimina impurezas, exceso de sebo y desobstruye poros. Ayuda a reducir imperfecciones y marcas severas. Acción anti-recurrencia. Adecuado para rostro y cuerpo.",
+    "descripcion_corta": "Elimina las impurezas, reduce el sebo, corrige las imperfecciones y marcas.",
+    "imagenes": [
+      "https://www.farmaciacuadrado.es/28527-thickbox_default/la-roche-posay-effaclar-duo-gel-purificante-micro-exfoliante-400-ml.jpg",
+      "https://m.media-amazon.com/images/I/71iXPP4gpTL._AC_SX569_.jpg"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 47,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "5 días",
+    "reviews": [
+      {
+        "estrellas": 5,
+        "texto": "Soy piel mixta sensible, y me va perfecto usándolo una vez, máximo 2 veces por semana porque tiene activos exfoliantes. Los días que no lo uso, uso el otro limpiador de Effaclar azul.",
+        "nombre": "María López"
+      },
+      {
+        "estrellas": 3,
+        "texto": "No me gustó tanto.",
+        "nombre": "Luis Martínez"
+      },
+      {
+        "estrellas": 4,
+        "texto": "Sí deja la piel limpia, la verdad también la reseca un poco. Destaco que mi piel es súper grasosa, o no sé si es la combinación de otros productos.",
+        "nombre": "Ana Gómez"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "marca": "La Roche-Posay",
+    "nombre": "La Roche-Posay - NIACINAMIDA PURA",
+    "main_img": "https://i0.wp.com/skinboutique.gt/wp-content/uploads/2022/09/pure-niacinamide-serum-la-roche-posay-skinboutique-guatemala.png?fit=1000%2C1000&ssl=1",
+    "precio": 11000,
+    "descripcion": "Apto para todo tipo de piel. Eficacia visible gracias al concentrado dermatológico de 10% de niacinamida pura. Para manchas y marcas, así como la hiperpigmentación causada por la microinflamación.",
+    "descripcion_corta": "Trata la hiperpigmentación y las manchas de sol y acné en la piel.",
+    "imagenes": [
+      "https://acdn.mitiendanube.com/stores/003/860/161/products/la-roche-posay-niacinamide-10-serum-copia-91de10c7c8a02552a117138307843328-1024-1024.png",
+      "https://kellyspharmacy.com/wp-content/uploads/2022/08/larocheposay-pureniacinamide10serum.webp"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 28,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "3 días",
+    "reviews": [
+      {
+        "estrellas": 3,
+        "texto": "Bien, pero no fue un milagro.",
+        "nombre": "Jorge Pérez"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Me gusta mucho esta marca, me funciona muy bien y me gusta mucho cómo se absorbe y deja la piel.",
+        "nombre": "Laura Sánchez"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Es un producto totalmente recomendable, esta Niacinamina te deja la piel perfecta y es de fácil aplicación. Una de las mejores que he probado.",
+        "nombre": "Carmen Díaz"
+      },
+      {
+        "estrellas": 4,
+        "texto": "He probado este producto desde hace un tiempo y ha logrado disminuir los granos y muchas cosas más. Lo recomiendo.",
+        "nombre": "Francisco Morales"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "marca": "La Roche-Posay",
+    "nombre": "La Roche-Posay - ANTHELIOS UVMUNE 400",
+    "main_img": "https://www.larocheposay-centroamerica.com/-/media/project/loreal/brand-sites/lrp/america/latam/products/anthelios/anthelios-uvmune-fluid-ap-50/lrpproductpagesunantheliosuvmune400fluidspspf503337875797597frontpng.png",
+    "precio": 13230,
+    "descripcion": "Su protección de amplio espectro protege la piel de los rayos UVA y UVB y ayuda a prevenir el daño causado por rayos infrarrojo-A y la contaminación. Su textura ultra fluida e invisible permite una fácil y cómoda aplicación sin manchas blancas. Es ultra resistente al agua, sudor y a la arena.",
+    "descripcion_corta": "Fórmula ligera, cómoda para el uso diario y pieles sensibles.",
+    "imagenes": [
+      "https://dermaboutique.com.py/cdn/shop/products/3337875797597_3_900x.jpg?v=1663875849",
+      "https://cdn.farmacenter.com.py/180/669557_3.jpg"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 54,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "3 días",
+    "reviews": [
+      {
+        "estrellas": 5,
+        "texto": "Muy ligero, me gustó más que el de la otra presentación gel-crema.",
+        "nombre": "Andrea Ruiz"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Cómodo, buena textura.",
+        "nombre": "Diego Fernández"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "marca": "Vichy",
+    "nombre": "Vichy - PROTECTOR SOLAR FACIAL",
+    "main_img": "https://static.wixstatic.com/media/816682_c997c820cd6f4aa9b663343128292aa5~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+    "precio": 15610,
+    "descripcion": "Protector solar fluido anti-fotoenvejecimiento de Vichy. Su tecnología Netlock multipatentada forma una película protectora contra los rayos UV, ultrafina y ultrarresistente, para una alta protección contra los rayos UVA y UVB.",
+    "descripcion_corta": "Previene y corrige los signos del fotoenvejecimiento.",
+    "imagenes": [
+      "https://m.media-amazon.com/images/I/6127q5JwUvL._AC_SX569_.jpg",
+      "https://elbloquear.vtexassets.com/arquivos/ids/159551-800-auto?v=637870978265500000&width=800&height=auto&aspect=true"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 45,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "3 días",
+    "reviews": [
+      {
+        "estrellas": 5,
+        "texto": "Lo recomiendo muchísimo, pero siempre consulten primero a su dermatóloga.",
+        "nombre": "Claudia Castillo"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "marca": "Vichy",
+    "nombre": "Vichy - TRATAMIENTO PIEL GRASA",
+    "main_img": "https://www.easypara.es/media/catalog/product/7/2/72664.jpg?optimize=medium&bg-color=255,255,255&height=1000&width=1000&canvas=1000:1000",
+    "precio": 20100,
+    "descripcion": "Cuidado corrector antiimperfecciones de doble corrección. En primer lugar, actúa localmente sobre las imperfecciones y, en segundo lugar, actúa globalmente sobre el rostro, aportando hidratación duradera 24H.",
+    "descripcion_corta": "Tratamiento para acné, poros y puntos negros.",
+    "imagenes": [
+      "https://www.easypara.es/media/catalog/product/7/2/72665.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700",
+      "https://www.easypara.es/media/catalog/product/7/2/72666.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 34,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "3 días",
+    "reviews": [
+      {
+        "estrellas": 5,
+        "texto": "Increíble el resultado luego de tan solo un mes",
+        "nombre": "Esteban Ortiz"
+      },
+      {
+        "estrellas": 4,
+        "texto": "Es bastante efectivo, cabe aclarar que de igual forma hay que evitar los alimentos grasos",
+        "nombre": "Valeria Ramos"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "marca": "Vichy",
+    "nombre": "Vichy - GEL LIMPIADOR FRESCO",
+    "main_img": "https://parafarmaciahorizonte.com/wp-content/uploads/2018/06/Vichy-Normaderml-Antiedad.jpg",
+    "precio": 10810,
+    "descripcion": "Esta fórmula de gel de limpieza profunda elimina el maquillaje, el sebo y la contaminación sin exceso de secado de la piel. Ayuda a revelar una piel más sana y brillante desde el primer uso.",
+    "descripcion_corta": "Elimina las impurezas sin resecar, seguro para pieles y ojos sensibles.",
+    "imagenes": [
+      "https://m.media-amazon.com/images/I/516w-EL7c1L._SX522_.jpg",
+      "https://m.media-amazon.com/images/I/51VUAHMHKOL._SX522_.jpg"
+    ],
+    "tiempo_entrega": "2-3 días hábiles",
+    "gastos_envio": 2000,
+    "opciones_entrega": "Envío postal y recogida en tienda",
+    "stock": 52,
+    "cambios_devoluciones": "politicaDevolucion.html",
+    "contacto_ayuda": "contacto.html",
+    "garantia": "3 días",
+    "reviews": [
+      {
+        "estrellas": 5,
+        "texto": "¡Huele genial y mi rostro se siente limpio y puro!",
+        "nombre": "Gabriela Flores"
+      },
+      {
+        "estrellas": 5,
+        "texto": "Mi piel es mixta y este limpiador es perfecto para los meses de calor, deja limpia la piel, con aroma casi imperceptible y no me deja la sensación de tensión.",
+        "nombre": "Juan Navarro"
+      }
+    ]
+  }
+]
